@@ -1,0 +1,28 @@
+header {
+  background-color: beige;
+}
+
+main {
+  background-color: rosybrown;
+}
+
+footer {
+  background-color: chocolate;
+}
+
+aside {
+  background-color: coral;
+}
+
+.common-style {
+  border: 1px solid;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+a[href^="https"] [href$=".com"] {
+  color: orange;
+}
