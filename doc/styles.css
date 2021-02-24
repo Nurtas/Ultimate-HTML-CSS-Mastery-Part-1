@@ -26,3 +26,44 @@ h3 {
 a[href^="https"] [href$=".com"] {
   color: orange;
 }
+
+/* pseudo-class lesson */
+
+/* p.first {
+  font-size: 140%;
+  font-style: italic;
+} */
+
+article :first-child {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article :last-child {
+  color: red;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+  font-size: 200%;
+}
+
+ul li:nth-child(even) {
+  color: blueviolet;
+  font-size: 200%;
+}
+
+a {
+  font-size: 150%;
+  color: gold;
+}
+
+a:visited, 
+a:link {
+  color: deepskyblue;
+}
+
+a:hover, 
+a:focus {
+  color: deeppink;
+}
